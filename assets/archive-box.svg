@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="970" height="600" viewBox="150 160 970 600" fill="none">
+  <defs>
+    <filter id="floor-shadow" x="120" y="610" width="1000" height="150" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <filter id="box-shadow" x="135" y="145" width="970" height="610" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#25241F" flood-opacity=".09"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="620" cy="704" rx="410" ry="34" fill="#37352F" opacity=".16" filter="url(#floor-shadow)"/>
+
+  <g filter="url(#box-shadow)">
+    <path d="M184 260 770 192 1072 279 461 370 184 260Z" fill="#F7F7F4" stroke="#D7D7D2" stroke-width="2"/>
+    <path d="m184 260 277 110v340L184 586V260Z" fill="#ECECE8" stroke="#D0D0CA" stroke-width="2"/>
+    <path d="m461 370 611-91v338l-611 93V370Z" fill="#F2F2EE" stroke="#D0D0CA" stroke-width="2"/>
+
+    <path d="m184 260 277 110v31L184 291v-31Z" fill="#E1E1DC" stroke="#CECEC8" stroke-width="1.5"/>
+    <path d="m461 370 611-91v31l-611 91v-31Z" fill="#E6E6E1" stroke="#CECEC8" stroke-width="1.5"/>
+    <path d="m214 322 143 56v36l-143-56v-36Z" fill="#1E1F1C"/>
+    <path d="m214 322 143 56" stroke="#11120F" stroke-width="3"/>
+
+    <path d="m237 431 170 67v111l-170-68V431Z" fill="#F3F3EF" stroke="#C9C9C3" stroke-width="1.5"/>
+    <path d="m237 532 170 67M237 559l170 67M322 464v101M350 475v101" stroke="#D0D0CA" stroke-width="1.5"/>
+    <text x="250" y="521" fill="#73736D" font-family="Arial, sans-serif" font-size="12" letter-spacing="1.2" transform="rotate(21 250 521)">ARCHIVE / STORAGE</text>
+    <text x="250" y="549" fill="#888881" font-family="Arial, sans-serif" font-size="9" letter-spacing=".5" transform="rotate(21 250 549)">ITEM NO. 001  /  CONTENTS</text>
+    <g transform="translate(270 574) rotate(21)">
+      <path d="M0 0v26M5 0v26M12 0v26M20 0v26M25 0v26M34 0v26M39 0v26M48 0v26M56 0v26M62 0v26M70 0v26" stroke="#575852" stroke-width="2"/>
+    </g>
+
+    <text x="627" y="514" fill="#272824" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700" letter-spacing="-5" transform="rotate(-8 627 514)">archiv</text>
+    <text x="629" y="577" fill="#7A7A73" font-family="Arial, sans-serif" font-size="12" letter-spacing="2" transform="rotate(-8 629 577)">OBJECTS, IDEAS &amp; EVERYDAY LIFE</text>
+  </g>
+</svg>
